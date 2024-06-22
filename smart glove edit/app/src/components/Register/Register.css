@@ -1,0 +1,283 @@
+/* Container Styling
+.registration-form-container {
+  background: linear-gradient(to bottom right, #527593, #2e4b69);
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Form Styling */
+.registration-form {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  
+  max-width: 70%;
+  margin: auto;
+  animation: slideIn 1s ease-in-out;
+}
+
+/* Form Title Styling */
+.registration-form h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #546d8b;
+  animation: fadeIn 1s ease-in-out;
+}
+
+
+
+
+/* Label Styling */
+.registration-form label {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 20x;
+  padding: 20px;
+  color: #546d8b;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Icon Styling */
+.registration-form label .icon {
+  margin-left: 30px;
+  font-size: 1.2rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Input Styling */
+.registration-form input,
+.registration-form select {
+  width: 100%;
+  padding:20px;
+  margin-top: 8px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.registration-form input:focus,
+.registration-form select:focus {
+  border-color: #6c63ff;
+}
+
+/* Button Styling */
+.registration-form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #546d8b, #1a3654);
+  color: #fff;
+  border-radius: 40px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  animation: slideIn 1s ease-in-out;
+}
+
+.registration-form button:hover {
+  background: linear-gradient(to right, #1a3654, #546d8b);
+}
+
+/* Error message styling */
+.registration-form p {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #ff6347;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.registration-form:hover p {
+  opacity: 1;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+      opacity: 0;
+      transform: translateX(-20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+} */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.registration-form-container {
+  background: linear-gradient(to bottom right, #527593, #2e4b69);
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+/* Form Styling */
+.registration-form {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 1000px;
+  max-width: 100%;
+  margin: auto;
+  animation: slideIn 1s ease-in-out;
+}
+
+/* Form Title Styling */
+.registration-form h1 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #546d8b;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Label Styling */
+.registration-form label {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #546d8b;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Icon Styling */
+.registration-form label .icon {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Input Styling */
+.registration-form input,
+.registration-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+  animation: fadeIn 1s ease-in-out;
+  font-size: 0.9rem;
+  /* Reduce font size */
+}
+
+.registration-form input:focus,
+.registration-form select:focus {
+  border-color: #6c63ff;
+}
+
+/* Button Styling */
+.registration-form button {
+  width: 100%;
+  padding: 8px;
+  /* Reduce padding */
+  border: none;
+  background: linear-gradient(to right, #546d8b, #1a3654);
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  animation: slideIn 1s ease-in-out;
+}
+
+.registration-form button:hover {
+  background: linear-gradient(to right, #1a3654, #546d8b);
+}
+
+/* Error message styling */
+.registration-form p {
+  margin-top: 4px;
+  /* Reduce bottom margin */
+  font-size: 0.9rem;
+  color: #ff6347;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Link Styling */
+.registration-form .login-link {
+  text-align: center;
+  margin-top: 10px;
+  /* Reduce top margin */
+  font-size: 0.9rem;
+  color: #546d8b;
+}
+
+.registration-form .login-link a {
+  color: #1a3654;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+  background: #2e4b69;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

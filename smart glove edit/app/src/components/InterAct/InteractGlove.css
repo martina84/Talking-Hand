@@ -1,0 +1,48 @@
+.interact-glove {
+  text-align: center;
+  margin-top: 20px;
+  animation: slideIn 1s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+.glove-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.glove-image {
+  width: 50%;
+  /* Adjust the width of the image as needed */
+  max-width: 350px;
+  /* Set a maximum width for the image */
+  margin-left: 20px;
+}
+
+.description {
+  font-size: 30px;
+  width: 100%;
+  text-align: left;
+  height: 40%;
+  font-weight: 600;
+  margin: 10px auto;
+  /* Set your desired text color */
+  margin-top: 20px;
+  /* Add margin between the image and the description */
+}
